@@ -15,7 +15,7 @@ export default function Home() {
           </span>
         </h1>
 
-        <p className="text-center max-w-2xl">Welcome to the first ever Lough Conn dash, a 50ish km (we haven't measured it yet) zip around the lovely Lough Conn in North Mayo. The </p>
+        <p className="text-center max-w-2xl">Welcome to the first ever Lough Conn dash, a 50ish km (we haven&apos;t measured it yet) zip around the lovely Lough Conn in North Mayo. The </p>
         
         <h2 className="text-3xl md:text-4xl font-semibold mt-8 mb-4 text-center">Costa del Conn</h2>
         <Image
@@ -39,9 +39,9 @@ export default function Home() {
         
         <p className="text-center max-w-2xl">This route will take us on all the roads closest to Lough Conn, without having to double back on ourselves. Starting from Deel Castle Bridge. 
           Do you go on the along the west bank, by Gortnor Abbey, towards(but not through, arouund) Lahardane, before going to Massbrook, the (roughly) halfway point.
-          After Massbrook, cross Pontoon Bridge, through the hills there, take a sharp left at Corcoran Fuels to Brackwansha, and you'll be on the home stretch through Cloghans and Knockfree. 
+          After Massbrook, cross Pontoon Bridge, through the hills there, take a sharp left at Corcoran Fuels to Brackwansha, and you&apos;ll be on the home stretch through Cloghans and Knockfree. 
           Or go East, towards Cloghans and Knockmore, 
-           Google maps says it's 51.8km.  </p>
+           Google maps says it&apos;s 51.8km.  </p>
         
         <Link 
           href="https://maps.app.goo.gl/BHfpmDrfgnNcgtBZ9" 
@@ -52,7 +52,7 @@ export default function Home() {
           Link to access route on google maps
         </Link>
         
-        <h2 className="text-3xl md:text-4xl font-semibold mt-8 mb-4 text-center">Isn't she lovely?</h2>
+        <h2 className="text-3xl md:text-4xl font-semibold mt-8 mb-4 text-center">Isn&apos;t she lovely?</h2>
         <Image
           src={LoughConnSunset}
           alt="Lough Conn Sunset view"
