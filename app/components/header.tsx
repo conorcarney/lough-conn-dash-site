@@ -1,3 +1,5 @@
+import Link from 'next/link';
+
 const Header = () => {
   return (
     <header className="w-full p-4 flex flex-col items-center border-b">
@@ -5,14 +7,14 @@ const Header = () => {
       <nav>
         <ul className="flex gap-6">
           <li>
-            <a href="/" className="hover:text-gray-600 transition-colors">
+            <Link href="/" className="hover:text-gray-600 transition-colors">
               Home
-            </a>
+            </Link>
           </li>
           <li>
-            <a href="/contact" className="hover:text-gray-600 transition-colors">
+            <Link href="/contact" className="hover:text-gray-600 transition-colors">
               Contact
-            </a>
+            </Link>
           </li>
         </ul>
       </nav>

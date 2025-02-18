@@ -13,7 +13,7 @@ export default function Contact() {
     isError: false
   });
 
-  const handleChange = (e) => {
+  const handleChange = (e: { target: { name: any; value: any; }; }) => {
     const { name, value } = e.target;
     setFormData(prev => ({
       ...prev,
@@ -21,7 +21,7 @@ export default function Contact() {
     }));
   };
 
-  const handleSubmit = async (e) => {
+  const handleSubmit = async (e: { preventDefault: () => void; }) => {
     e.preventDefault();
     setStatus({ message: '', isError: false });
 
@@ -41,7 +41,7 @@ export default function Contact() {
         setStatus({ message: 'Failed to send message. Please try again.', isError: true });
       }
     } catch (error) {
-      setStatus({ message: 'An error occurred. Please try again later.', isError: true });
+      setStatus({ message: `An error ${error} occurred. Please try again later.`, isError: true });
     }
   };
 
@@ -105,12 +105,6 @@ export default function Contact() {
             Send Message
           </button>
         </form>
-
-        <div className="mt-12 text-center">
-          <h2 className="text-2xl font-semibold mb-4">Other Ways to Reach Us</h2>
-          <p className="mb-2">Email: info@loughconndash.com</p>
-          <p>Phone: +353 (0) 123 456 789</p>
-        </div>
       </div>
     </div>
   );

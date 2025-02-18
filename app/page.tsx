@@ -2,6 +2,8 @@ import Image from "next/image";
 import LoughConnNormal from "../public/lough-conn-normal.jpg"
 import LoughConnSunset from "../public/lough-conn-sunset.jpg"
 import LoughConnRoute from "../public/lough-conn-route-google-maps.png"
+import Link from 'next/link';
+
 export default function Home() {
   return (
     <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 sm:p-20 font-[family-name:var(--font-geist-sans)]">
@@ -41,7 +43,14 @@ export default function Home() {
           Or go East, towards Cloghans and Knockmore, 
            Google maps says it's 51.8km.  </p>
         
-        <a href="https://maps.app.goo.gl/BHfpmDrfgnNcgtBZ9" className="text-center text-blue-600 hover:text-blue-800">Link to access route on google maps</a>
+        <Link 
+          href="https://maps.app.goo.gl/BHfpmDrfgnNcgtBZ9" 
+          className="text-center text-blue-600 hover:text-blue-800"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Link to access route on google maps
+        </Link>
         
         <h2 className="text-3xl md:text-4xl font-semibold mt-8 mb-4 text-center">Isn't she lovely?</h2>
         <Image
