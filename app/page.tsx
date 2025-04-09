@@ -15,7 +15,7 @@ export default function Home() {
           </span>
         </h1>
 
-        <p className="text-center max-w-2xl">Welcome to the first ever Lough Conn dash, a 50ishkm  zip around the lovely Lough Conn in North Mayo. To donate to Irish Cancer Society please <a href="https://gofund.me/c46d5ff2"> follow this link to the goFundMe</a> </p>
+        <p className="text-center max-w-2xl">Welcome to the first ever Lough Conn dash, a 50ishkm  zip around the lovely Lough Conn in North Mayo. To donate to Irish Cancer Society please <a href="https://gofund.me/c46d5ff2" color="blue"> follow this link to the goFundMe</a> </p>
 
         <h2 className="text-3xl md:text-4xl font-semibold mt-8 mb-4 text-center">Costa del Conn</h2>
         <Image
@@ -64,9 +64,10 @@ export default function Home() {
         <div className="flex gap-4 items-center flex-col sm:flex-row">
           <a
             className="rounded-full border border-solid border-transparent transition-colors flex items-center justify-center bg-foreground text-background gap-2 hover:bg-[#383838] dark:hover:bg-[#ccc] text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
+            href="/contact"
             target="_blank"
             rel="noopener noreferrer"
+
           >
             Interested?
           </a>
