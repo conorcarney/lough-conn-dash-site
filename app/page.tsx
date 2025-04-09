@@ -15,8 +15,8 @@ export default function Home() {
           </span>
         </h1>
 
-        <p className="text-center max-w-2xl">Welcome to the first ever Lough Conn dash, a 50ish km (we haven&apos;t measured it yet) zip around the lovely Lough Conn in North Mayo. The </p>
-        
+        <p className="text-center max-w-2xl">Welcome to the first ever Lough Conn dash, a 50ishkm  zip around the lovely Lough Conn in North Mayo. To donate to Irish Cancer Society please <a href="https://gofund.me/c46d5ff2"> follow this link to the goFundMe</a> </p>
+
         <h2 className="text-3xl md:text-4xl font-semibold mt-8 mb-4 text-center">Costa del Conn</h2>
         <Image
           src={LoughConnNormal}
@@ -26,7 +26,7 @@ export default function Home() {
           className="w-full max-w-2xl object-cover"
           priority
         />
-        
+
         <h2 className="text-3xl md:text-4xl font-semibold mt-8 mb-4 text-center">Planned Route</h2>
         <Image
           src={LoughConnRoute}
@@ -36,22 +36,22 @@ export default function Home() {
           className="w-full max-w-2xl object-cover"
           priority
         />
-        
-        <p className="text-center max-w-2xl">This route will take us on all the roads closest to Lough Conn, without having to double back on ourselves. Starting from Deel Castle Bridge. 
+
+        <p className="text-center max-w-2xl">This route will take us on all the roads closest to Lough Conn, without having to double back on ourselves. Starting from Deel Castle Bridge.
           Do you go on the along the west bank, by Gortnor Abbey, towards(but not through, arouund) Lahardane, before going to Massbrook, the (roughly) halfway point.
-          After Massbrook, cross Pontoon Bridge, through the hills there, take a sharp left at Corcoran Fuels to Brackwansha, and you&apos;ll be on the home stretch through Cloghans and Knockfree. 
-          Or go East, towards Cloghans and Knockmore, 
-           Google maps says it&apos;s 51.8km.  </p>
-        
-        <Link 
-          href="https://maps.app.goo.gl/BHfpmDrfgnNcgtBZ9" 
+          After Massbrook, cross Pontoon Bridge, through the hills there, take a sharp left at Corcoran Fuels to Brackwansha, and you&apos;ll be on the home stretch through Cloghans and Knockfree.
+          Or go East, towards Cloghans and Knockmore,
+          Google maps says it&apos;s 51.8km.  </p>
+
+        <Link
+          href="https://maps.app.goo.gl/BHfpmDrfgnNcgtBZ9"
           className="text-center text-blue-600 hover:text-blue-800"
           target="_blank"
           rel="noopener noreferrer"
         >
           Link to access route on google maps
         </Link>
-        
+
         <h2 className="text-3xl md:text-4xl font-semibold mt-8 mb-4 text-center">Isn&apos;t she lovely?</h2>
         <Image
           src={LoughConnSunset}
@@ -67,14 +67,14 @@ export default function Home() {
             href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
             target="_blank"
             rel="noopener noreferrer"
-      >
-          Interested? 
+          >
+            Interested?
           </a>
-          
+
         </div>
       </main>
       <footer >
-       
+
       </footer>
     </div>
   );
